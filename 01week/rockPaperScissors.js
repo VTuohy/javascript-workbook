@@ -6,6 +6,17 @@ const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
+// if you have 2 hands
+/* then you have 3 possiblities (for each of the 2 hands... (rock, paper, sCiSsOrs)
+if you have 1 game, you have 6 possible outcomes
+global variables would be hands
+//paper vs. rock and paper wins
+//rock vs. scissors and rock wins
+//paper vs scissors and scissors win
+//paper vs. paper is a tie
+//rock vs. rock is a tie
+scissors vs. scissors is a tie*/
+//if then statements... if it is paper and rock, then rock wins etc... if it is paper and paper then it is a tie...
 
 
 function rockPaperScissors(hand1, hand2) {
@@ -17,7 +28,7 @@ function rockPaperScissors(hand1, hand2) {
 function getPrompt() {
   rl.question('hand1: ', (answer1) => {
     rl.question('hand2: ', (answer2) => {
-      console.log( rockPaperScissors(answer1, answer2) );
+      console.log(rockPaperScissors(answer1, answer2));
       getPrompt();
     });
   });
