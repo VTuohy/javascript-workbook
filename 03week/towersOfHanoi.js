@@ -20,7 +20,7 @@
 //write a test function to test win//
 /*test cases(1)no blocks can even enter third column unless in sequential order of (a,b,c,n).*/
 /* (2) First and Second columns[arrays] work in sequences of [a,b,c,n] and [n,b,c,a] between eachother but do not have to have all pieces of string to stick.
-//make arrays of strings//
+//make arrays of strings///
 
 
 
